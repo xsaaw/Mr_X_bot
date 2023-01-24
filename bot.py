@@ -299,7 +299,7 @@ async def ch(message: types.Message):
 <b>CHKBY</b>➟ <a href="tg://user?id={ID}">{FIRST}</a>
 <b>OWNER</b>: {await is_owner(ID)}
 <b>BOT</b>: @{BOT_USERNAME}''')
-<a href="tg://user?id={OWNER}">Support 🇪🇬</a>
+
         if 'security code' in rx.text:
             return await message.reply(f'''
 ✅<b>CC</b>➟ <code>{ccn}|{mm}|{yy}|{cvv}</code>
