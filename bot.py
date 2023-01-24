@@ -243,7 +243,7 @@ async def ch(message: types.Message):
             "guid": Guid,
             "muid": Muid,
             "sid": Sid,
-            "key": "pk_live_YJm7rSUaS7t9C8cdWfQeQ8Nb",
+            "key": "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",
             "card[name]": Name,
             "card[number]": ccn,
             "card[exp_month]": mm,
