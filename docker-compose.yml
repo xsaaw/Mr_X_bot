@@ -1,0 +1,10 @@
+version: "3.10"
+services:
+  worker:
+    build: .
+    environment:
+      TOKEN: $TOKEN
+      BLACKLISTED: $BLACKLISTED
+      PREFIX: $PREFIX
+      OWNER: $OWNER
+      ANTISPAM: $ANTISPAM

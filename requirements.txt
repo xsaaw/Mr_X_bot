@@ -1,0 +1,4 @@
+aiogram
+requests
+PyYAML
+bs4
